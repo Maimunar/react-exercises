@@ -1,3 +1,8 @@
+# Citation Machine
+## Aleksandar Ivanov
+
+This project can also be found on [Codepen](https://codepen.io/Maimunar/pen/NWjZgJY)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

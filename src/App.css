@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  font-family: monospace;
+  color: white;
+
+}
+#quote-box {
+  background-color: darkgreen;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 150px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  min-width: 250px;
+}
+
+#new-quote {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid green;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  margin-top: 20px;
+}

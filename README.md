@@ -1,3 +1,8 @@
+# Calculator
+## Aleksandar Ivanov
+
+This project is also available on [Codepen](https://codepen.io/Maimunar/pen/bGWXBdJ)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

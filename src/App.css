@@ -1,0 +1,82 @@
+body {
+  background-color: darkgray;
+  font-family: monospace;
+  color: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: darkgreen;
+  font-size: 1.5rem;
+}
+
+#change-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
+  border: 2px solid white;
+  background-color: darkgreen;
+  padding: 20px 30px;
+}
+
+
+#break-container,  #session-container, #timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 150px;
+  min-width: 150px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+#break-label,  #session-label, #timer-label{
+  margin-bottom: 0;
+}
+
+#break-length, #session-length, #time-left {
+  font-size: 1.1rem;
+} 
+
+#break-increment, #break-decrement, #session-increment, #session-decrement {
+  background-color: darkgray;
+  border-radius: 0;
+  padding: 7px;
+  color: white;
+  margin: 5px;
+  border: 1px solid white;
+  width: 30px;
+  min-height: 30px;
+}
+
+#break-increment:hover, #break-decrement:hover, #session-increment:hover, #session-decrement:hover, #start_stop:hover, #reset:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+#timer-container {
+  margin-top: 20px;
+  background-color: darkgreen;
+}
+
+#start_stop, #reset {
+  background-color: darkgray;
+  border-radius: 0;
+  padding: 15px;
+  color: white;
+  margin: 5px;
+  border: 1px solid white;
+  min-width: 70px;
+  margin-bottom: 15px;
+}

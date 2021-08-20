@@ -1,4 +1,4 @@
-# Markdown Editor
+# Drum Machine
 ## Aleksandar Ivanov
 
 This project is also available on [Codepen](https://codepen.io/Maimunar/pen/LYywEvL)
